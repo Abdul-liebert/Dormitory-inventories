@@ -1,0 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/phenomena');
+@import url(https://db.onlinewebfonts.com/c/cc84650569fd07dac022c55b20c66e46?family=Futura+Bk+BT+Book);
+
+*{
+    font-family: 'Phenomena', sans-serif;
+}
+
+p{
+    font-family: "Futura Bk BT Book";
+}
