@@ -1,0 +1,63 @@
+{
+    "cards": [
+      {
+        "inventories": [
+          {
+            "icon": "/assets/img/svg/bed.svg",
+            "title": "Kamar",
+            "qty": "99"
+          },
+          {
+            "icon": "/assets/img/svg/broom.svg",
+            "title": "Kamar",
+            "qty": "99"
+          },
+          {
+            "icon": "/assets/img/svg/shoes.svg",
+            "title": "Kamar",
+            "qty": "99"
+          },
+          {
+            "icon": "/assets/img/svg/bucket.svg",
+            "title": "Kamar",
+            "qty": "99"
+          },
+          {
+            "icon": "/assets/img/svg/toilet-paper.svg",
+            "title": "Toilet",
+            "qty": "99"
+          }
+        ]
+      },
+      {
+        "facilities": [
+          {
+            "icon" : "",
+            "icon-btn" : "",
+            "title" : "",
+            "qty" : "99"
+          }
+      ]
+      },
+      {
+        "description": [
+          {
+            "icon": "/assets/img/svg/bed.svg",
+            "title": "Kamar",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos reprehenderit sed asperiores, omnis ullam maxime et nemo optio? Harum, deserunt."
+          },
+          {
+            "icon": "/assets/img/svg/washing-machine.svg",
+            "title": "Kamar",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos reprehenderit sed asperiores, omnis ullam maxime et nemo optio? Harum, deserunt."
+          },
+          {
+            "icon": "/assets/img/svg/toilet-paper.svg",
+            "title": "Kamar",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos reprehenderit sed asperiores, omnis ullam maxime et nemo optio? Harum, deserunt."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/phenomena');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+header {
+    background-color: white;
+    font-family: 'Phenomena', sans-serif;
+}
+
+#str {
+    stroke-width: 6px;
+    stroke: #2CA6FF;
+    width: 43.5px;
+    height: 3px;
+    flex-shrink: 0;
+}
