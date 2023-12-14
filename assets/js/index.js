@@ -26,12 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h5 class="card-title fw-bold fs-3">${description.title}</h5>
                         <p class="card-text px-4 mb-3 " style="text-align:justify; font-size:12px;">${description.description}</p>
                       </div>    
-                      </div>
+                      </div>  
                     </div>
                   `;
     
                 cardDiv.innerHTML = cardHtml;
-                cardDescription.appendChild(cardDiv);
+                cardContainer.appendChild(cardDiv);
               });
             }
         });

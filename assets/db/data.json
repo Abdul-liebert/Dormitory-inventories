@@ -21,11 +21,6 @@
             "icon": "/assets/img/svg/bucket.svg",
             "title": "Kamar",
             "qty": "99"
-          },
-          {
-            "icon": "/assets/img/svg/toilet-paper.svg",
-            "title": "Toilet",
-            "qty": "99"
           }
         ]
       },

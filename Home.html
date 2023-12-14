@@ -10,15 +10,15 @@
   </head>
   <body>
     <header>
-      <nav class="navbar sticky-top shadow-sm navbar-expand-lg">
+      <nav class="navbar sticky-top shadow-sm navbar-expand-lg gx-4">
         <div class="container-fluid">
           <a class="navbar-brand ms-5" href="Home.html"><img src="assets/img/logo.png" height="50" alt=""></a>
           <div class="top-0">
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <a class="nav-link active text-primary me-3" href="Home.html">Home</a>
+            <a class="nav-link active text-primary me-3 fw-semibold fs-5" href="Home.html">Home</a>
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
               <li class="nav-item dropdown">
-                <a class="nav-link me-3 dropdown-toggle" id="drop-active" href="Area.html" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link me-3 dropdown-toggle fw-semibold fs-5" id="drop-active" href="Area.html" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Area
                 </a>
@@ -30,21 +30,46 @@
                 </ul>
               </li>
             </ul>
-            <a class="nav-link me-3" aria-current="page" href="Facilities.html">Facilities</a>
-            <a class="nav-link me-5" aria-current="page" href="Contacs.html">Contacts</a>
+            <a class="nav-link me-3 fw-semibold fs-5" aria-current="page" href="Facilities.html">Facilities</a>
+            <a class="nav-link me-5 fw-semibold fs-5" aria-current="page" href="Contacs.html">Contacts</a>
           </div>
           </div>
         </div>
       </nav>
     </header>
 
-    <div class="container-fluid" style="background-color: #E9E9FA;">
-      <div class="container py-4 ">
-        a
+    <div style="background-color: #E9E9FA;">
+      <div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/Untitled design (5).png" class="d-block w-100 " style="height: autp;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/Untitled design (6).png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/Untitled design (7).png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="container py-5">
+    <div class="container py-5 px-5">
       <h2>Tentang</h2>
       <svg width="50" height="6" viewBox="0 0 50 6" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path id="Vector 202" d="M3 3H46.5" stroke="#2CA6FF" stroke-width="6" stroke-linecap="round"></path>
@@ -55,7 +80,7 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
 
-    <div class="container py-5">
+    <div class="container py-5  px-5">
       <h2>Fasilitas</h2>
       <svg width="50" height="6" viewBox="0 0 50 6" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path id="Vector 202" d="M3 3H46.5" stroke="#2CA6FF" stroke-width="6" stroke-linecap="round"></path>
@@ -71,20 +96,27 @@
 
     </div>
 
-    <div class="container py-5">
+    <div class="container py-5  px-5">
       <h2>Penyimpanan</h2>
       <svg width="50" height="6" viewBox="0 0 50 6" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path id="Vector 202" d="M3 3H46.5" stroke="#2CA6FF" stroke-width="6" stroke-linecap="round"></path>
       </svg>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
       <div class="container row row-cols-5">
-        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Lantai 1</button></a>
-        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Lantai 2</button></a>
-        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Basement 1</button></a>
-        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill">Basement 2</button></a>
+        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill ">Lantai 1</button></a>
+        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill ">Lantai 2</button></a>
+        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill ">Basement 1</button></a>
+        <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm rounded-pill ">Basement 2</button></a>
         <form class="d-flex" role="search">
           <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">  
         </form>
+
+        <div class="container mt-4 d-flex">
+          <div class="row px-5 mx-5" id="cardDescription"></div>
+          
+            <div class="row px-5 mx-5 " id="cardContainer" ></div>
+    
+        </div>
       </div>
     </div>
 
@@ -110,5 +142,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
+
   </body>
 </html>

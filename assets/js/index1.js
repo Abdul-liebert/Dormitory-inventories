@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("/assets/db/data.json")
       .then((response) => response.json())
       .then((data) => {
-        const cardContainer = document.getElementById("cardContainer");
+        const cardContainer = document.getElementById("cardContainer-1");
   
         data.cards.forEach((cardData) => {
           if (cardData.inventories) {
