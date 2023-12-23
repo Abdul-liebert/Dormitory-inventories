@@ -9,11 +9,66 @@
         },
         {
           "icon": "/assets/svg/broom.svg",
-          "title": "Kamar",
+          "title": "1",
           "qty": "99"
         },
         {
           "icon": "/assets/svg/shoes.svg",
+          "title": "2",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "3",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "4",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "4",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "4",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "4",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "4",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "5",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "6",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "Kamar",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
+          "title": "7",
+          "qty": "99"
+        },
+        {
+          "icon": "/assets/svg/bucket.svg",
           "title": "Kamar",
           "qty": "99"
         },
@@ -22,6 +77,7 @@
           "title": "Kamar",
           "qty": "99"
         },
+
         {
           "icon": "/assets/svg/toilet-paper.svg",
           "title": "Toilet",
